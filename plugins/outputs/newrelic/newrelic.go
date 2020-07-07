@@ -117,7 +117,7 @@ func (nr *NewRelic) Write(metrics []telegraf.Metric) error {
 			case string:
 				// Do not log everytime we encounter string
 				// we just skip
-				continue
+				tags[field.Key] = field.Value
 			default:
 				return fmt.Errorf("Undefined field type: %T", field.Value)
 			}
