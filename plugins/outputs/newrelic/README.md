@@ -7,8 +7,8 @@ To use this plugin you must first obtain an [Insights API Key][].
 ### Configuration
 ```toml
 [[outputs.newrelic]]
-  ## New Relic Insights API key
-  insights_key = "insights api key"
+  ## New Relic Insert API key
+  insights_key = "insert api key"
 
   ## Prefix to add to add to metric name for easy identification.
   # metric_prefix = ""
@@ -18,4 +18,4 @@ To use this plugin you must first obtain an [Insights API Key][].
 ```
 
 [Metrics API]: https://docs.newrelic.com/docs/data-ingest-apis/get-data-new-relic/metric-api/introduction-metric-api
-[Insights API Key]: https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#user-api-key
+[Insert API Key]: https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#user-api-key
