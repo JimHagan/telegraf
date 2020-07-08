@@ -35,8 +35,8 @@ func (nr *NewRelic) Description() string {
 // SampleConfig : return  default configuration of the Output
 func (nr *NewRelic) SampleConfig() string {
 	return `
-  ## New Relic Insights API key
-  insights_key = "insights api key"
+  ## New Relic Insert API key
+  insights_key = "insert api key"
 
   ## Prefix to add to add to metric name for easy identification.
   # metric_prefix = ""
